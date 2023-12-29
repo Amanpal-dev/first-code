@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: rgb(254 234 254);
+    background-image: url(./assets/daniel-apodaca-WdoQio6HPVA-unsplash.jpg);
+    background-size:cover;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main-skills{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+.main-skills .card{
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 28% ;
+    height: 8rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 5px 8px 13px rgba(174, 165, 165, 0.4);
+}
+.card:active{
+    transform: scale(1.09);
+}
+.main-skills .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.graph{
+    display: flex;
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 14rem;
+    width: 80rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 15px;
+    margin-right: 1rem;
+    cursor: pointer;
+    box-shadow: 5px 8px 13px rgba(174, 165, 165, 0.4);
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
